@@ -1,0 +1,103 @@
+/* EXERCISE 1 */
+.well .ex-1-square{
+  transition: background 2s;
+}
+
+.well .ex-1-square:hover{
+  background-color: red;
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 2 */
+.well .ex-2-square{
+  transition: width 2s;
+}
+
+.well .ex-2-square:active{
+  width: 100%;
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 3 */
+.well .ex-3-square{
+  transition: border-radius 0.5s;
+}
+
+.well .ex-3-square:hover{
+  border-radius: 50%;
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 4 */
+.well .ex-4-square{
+  transition: opacity 1s;
+}
+
+.well .ex-4-square:hover{
+  opacity: 0%;
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 5 */
+.well .ex-5-square{
+  transition: transform 1s;
+}
+
+.well .ex-5-square:hover{
+  transform: scale(2);
+}
+
+.well .ex-5-square:active{
+  transform: scale(0.5);
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 6 */
+.well img.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 7 */
+.well img.ex-7-img{
+  transition: filter 1s;
+}
+
+.well img.ex-7-img:hover{
+  filter: grayscale(1) contrast(1.5);
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 8 */
+.well img.ex-8-img{
+  transition: border-radius 1s, filter 1s;
+}
+
+.well img.ex-8-img:hover{
+  border-radius: 25px;
+  filter: grayscale(1) contrast(1.5);
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 9 */
+.well img.ex-9-img{
+  transition: border-radius 1s, filter 1s, transform 1.5s;
+}
+
+.well img.ex-9-img:hover{
+  border-radius: 25px;
+  filter: grayscale(1) contrast(1.5);
+  transform: scale(1.5);
+}
+
+/* ---------------------------------- */
+
+/* EXERCISE 9 */
